@@ -48,6 +48,14 @@
 }
 
 @media (max-width: 600px) {
+    .reviews {
+    margin-top: 22px;
+    flex-direction: column;
+  }
+
+  .review {
+    width: 100%;
+  }
   .review__tittle {
     font-size: 25px;
     line-height: 34px;

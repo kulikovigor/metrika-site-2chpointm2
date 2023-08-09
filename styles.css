@@ -1,0 +1,98 @@
+@import "styles/header.css";
+@import "styles/intro.css";
+@import "styles/about-us.css";
+@import "styles/projects.css";
+@import "styles/services.css";
+@import "styles/contacts.css";
+@import "styles/galery.css";
+@import "styles/buttons.css";
+@import "styles/reviews.css";
+@import "styles/heading.css";
+@import "styles/footter.css";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  width: 100%;
+}
+
+main {
+  background: #ffffff;
+}
+
+.container-black {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+section {
+  margin: 0 auto;
+  width: 1150px;
+  padding-top: 150px;
+}
+
+section:first-child {
+  padding-top: 70px;
+}
+
+.section-long {
+  padding-bottom: 150px;
+}
+.section-nopadd {
+  padding: 0;
+}
+
+/*.section-full {
+  width: 100%;
+}*/
+
+@media (max-width: 1199px) {
+  section {
+    width: 100%;
+    padding: 120px 15px 0 17px;
+  }
+}
+
+@media (max-width: 767px) {
+  section {
+    padding: 80px 12px 0 13px;
+  }
+
+  section:first-child {
+    padding-top: 60px;
+  }
+}
+
+h2,
+h3,
+a,
+p,
+div,
+.image-text,
+.about_us_text,
+.project_name,
+.project_link,
+.full_button {
+  letter-spacing: -0.03em;
+}
+
+.section-black_footer {
+  margin: 0 auto;
+  height: 229px;
+  background-color: #121212;
+}
+
+.boxes-wrapper_down {
+  margin: 0 auto;
+  width: 1400px;
+  height: 229px;
+}
+
+.box {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}

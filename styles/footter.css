@@ -1,0 +1,40 @@
+.footter {
+  padding: 60px 0 30px 0;
+}
+
+.footernav {
+  padding-top: 60px;
+  width: 460px;
+  height: 25px;
+  margin: auto;
+}
+
+.footernav__link {
+  margin-left: 51px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  text-decoration: none;
+  letter-spacing: -0.54px;
+  color: #fff;
+}
+
+.footernav__link:first-child {
+  margin: 0;
+}
+
+.footernav__link:hover {
+  opacity: 0.5;
+  border-bottom: 1px solid rgba(225, 225, 225, 0.5);
+}
+
+.footer_tittle {
+  margin-top: 113px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: -0.6px;
+  color: #fff;
+  opacity: 0.5;
+}

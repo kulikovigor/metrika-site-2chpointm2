@@ -1,0 +1,36 @@
+ .nav-section {
+    min-width: 1151px;
+  }
+  
+  .nav-container {
+    width: 1151px;
+    margin: 0 auto;
+    padding-top: 32px;
+  }
+  
+  .nav_logо {
+    width: 127px;
+    height: 21px;
+    color: #121212;
+  }
+  
+  .nav {
+    float: right;
+  }
+  
+  .nav__link {
+    margin-left: 58px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.54px;
+    text-decoration: none;
+    color: #121212;
+  }
+  
+  .nav__link:hover,
+  .nav__link:active {
+    color: #121212;
+    opacity: 0.5;
+    text-decoration: underline;
+  }
